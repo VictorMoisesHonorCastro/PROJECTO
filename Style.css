@@ -58,11 +58,15 @@ ul{
     
 }
 /*showcase*/
+hr{
+    margin: 10px 0;
+}
 .showcase{
     width:100%;
     height: 500px;
     background: url(/Img/inicio.jpg) no-repeat center center/cover;
     padding-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,5 +86,25 @@ ul{
 }
 .btn:hover{
     opacity: .5;
+}
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+/*news cards / tarjetas de noticias*/
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+.news-cards img{
+    width: 100%;
+    height: 180px;
 
 }
+.news-cards h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
